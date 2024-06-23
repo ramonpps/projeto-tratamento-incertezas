@@ -6,7 +6,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class Consulta:
-    def __init__(self, event_type, source, destination):
+    def __init__(self, event_type, test_type, source, destination):
         self.base_url = "http://monipe-central.rnp.br"
         self.url = "http://monipe-central.rnp.br/esmond/perfsonar/archive/"
         self.parametros = {
