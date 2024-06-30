@@ -9,6 +9,8 @@ Alunos:
 
 Para executar o código, primeiro instale as dependências:
 
+Python: 3.10.9
+
 ``pip install -r requirements.txt``
 
 Depois, execute a função main:
